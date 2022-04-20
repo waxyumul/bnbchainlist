@@ -1,6 +1,6 @@
-const assetPrefix = process.env.NEXT_PUBLIC_STATIC_HOST || '';
+const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
   reactStrictMode: true,
-  assetPrefix,
+  assetPrefix: isProd ? process.env.NEXT_PUBLIC_STATIC_HOST || 'https://www.nodereal.io/static/bnbchainlist' : '',
 }
