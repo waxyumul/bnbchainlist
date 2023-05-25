@@ -12,6 +12,10 @@ RUN yarn build
 
 ARG STATIC_BUCKET
 
+#Update stretch repositories https://stackoverflow.com/questions/76094428/debian-stretch-repositories-404-not-found
+RUN sed -i s/deb.debian.org/archive.debian.org/g /etc/apt/sources.list
+RUN sed -i 's|security.debian.org|archive.debian.org/|g' /etc/apt/sources.list
+RUN sed -i '/stretch-updates/d' /etc/apt/sources.list
 RUN apt-get update && apt-get install -y awscli
 
 RUN aws s3 cp /opt/app/.next/static s3://${STATIC_BUCKET}/static/_next/static --recursive --cache-control "private, max-age=259200" \
