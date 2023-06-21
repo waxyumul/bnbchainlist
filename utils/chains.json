@@ -36,7 +36,13 @@
       "https://data-seed-prebsc-1-s2.binance.org:8545/",
       "https://data-seed-prebsc-2-s2.binance.org:8545/",
       "https://data-seed-prebsc-2-s3.binance.org:8545/",
-      "https://bsc-testnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5"
+      "https://bsc-testnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5",
+      "https://data-seed-prebsc-1-s1.bnbchain.org:8545/",
+      "https://data-seed-prebsc-2-s1.bnbchain.org:8545/",
+      "https://data-seed-prebsc-1-s2.bnbchain.org:8545/",
+      "https://data-seed-prebsc-2-s2.bnbchain.org:8545/",
+      "https://data-seed-prebsc-1-s3.bnbchain.org:8545/",
+      "https://data-seed-prebsc-2-s3.bnbchain.org:8545/"
     ],
     "faucets": [
       "https://testnet.binance.org/faucet-smart"
@@ -106,7 +112,7 @@
     "name": "opBNB Testnet",
     "chain": "BSC",
     "rpc": [
-      "https://opbnb-testnet-rpc.bnbchain.org"
+      "https://opbnb-testnet-rpc.bnbchain.org/"
     ],
     "nativeCurrency": {
       "name": "BNB Chain Native Token",
