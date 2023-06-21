@@ -8,5 +8,6 @@ export const chainIds = {
   14000: "bas-ankr",
   91715: "combo",
   5600: "bnb",
-  5601: "bnb"
+  5601: "bnb",
+  5611: "bnb"
 };
