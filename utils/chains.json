@@ -109,6 +109,27 @@
     ]
   },
   {
+    "name": "opBNB Mainnet",
+    "chain": "BSC",
+    "rpc": [
+      "https://opbnb-mainnet-rpc.bnbchain.org"
+    ],
+    "nativeCurrency": {
+      "name": "BNB Chain Native Token",
+      "symbol": "BNB",
+      "decimals": 18
+    },
+    "infoURL": "https://www.bnbchain.world",
+    "chainId": 204,
+    "explorers": [
+      {
+        "name": "bscscan",
+        "url": "https://opbnbscan.com/",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "opBNB Testnet",
     "chain": "BSC",
     "rpc": [
