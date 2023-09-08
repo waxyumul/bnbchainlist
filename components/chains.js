@@ -9,5 +9,6 @@ export const chainIds = {
   91715: "combo",
   5600: "bnb",
   5601: "bnb",
-  5611: "bnb"
+  5611: "bnb",
+  204: "bnb"
 };
